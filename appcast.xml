@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Mai</title>
+        <item>
+            <title>1.1.5</title>
+            <pubDate>Wed, 17 Dec 2025 22:32:53 +0000</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/herrkaefer/mai-releases/releases/download/v1.1.5/Mai-1.1.5-build17.dmg" length="5705937" type="application/octet-stream" sparkle:edSignature="Ntea/iRO/Ll43emISNQUE3RgQ7wAhaieejOZfAZy9BOxxqPadd3k3xzxUE7GScHG7avOIeN1Dk6zKIkRcmEFAA=="/>
+        </item>
+    </channel>
+</rss>
