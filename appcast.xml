@@ -3,12 +3,12 @@
     <channel>
         <title>Mai</title>
         <item>
-            <title>1.1.5</title>
-            <pubDate>Wed, 17 Dec 2025 22:32:53 +0000</pubDate>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <title>1.1.6</title>
+            <pubDate>Wed, 17 Dec 2025 23:55:31 +0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/herrkaefer/mai-releases/releases/download/v1.1.5/Mai-1.1.5-build17.dmg" length="5705937" type="application/octet-stream" sparkle:edSignature="Ntea/iRO/Ll43emISNQUE3RgQ7wAhaieejOZfAZy9BOxxqPadd3k3xzxUE7GScHG7avOIeN1Dk6zKIkRcmEFAA=="/>
+            <enclosure url="https://github.com/herrkaefer/mai-releases/releases/download/v1.1.6/Mai-1.1.6-build18.dmg" length="5706073" type="application/octet-stream" sparkle:edSignature="Y4lVcogEuqe+u8H1gJI0hvT2jtRyllgUiZvGajZcuFsPWjcInOrBYgnFe4qz/VyyiY7+MNY8ywep7y/4FkT3Cw=="/>
         </item>
     </channel>
 </rss>
