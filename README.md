@@ -1,5 +1,5 @@
 ---
-title: Mai: Not another markdown editor
+title: Mai - Not another markdown editor
 date: 2025-12-18
 category: Productivity
 tags: macos, notes, markdown, app-dev, development
