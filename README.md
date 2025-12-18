@@ -1,11 +1,3 @@
----
-title: Mai - Not another markdown editor
-date: 2025-12-18
-category: Productivity
-tags: macos, notes, markdown, app-dev, development
-summary:
----
-
 ![Mai](./screenshots/screenshot-1.png)
 
 ## What Mai Is Not
