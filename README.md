@@ -1,4 +1,5 @@
-![Mai](./screenshots/screenshot-1.png)
+![Mai](./screenshots/screenshot-light.png)
+![Mai](./screenshots/screenshot-dark.png)
 
 ## What Mai Is Not
 
