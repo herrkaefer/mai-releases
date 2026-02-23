@@ -22,17 +22,15 @@ Mai is a native macOS knowledge workspace for local Markdown files, now with an 
 
 Mai now includes a production-ready AI Agent layer for Markdown knowledge work:
 
-- **Tool-driven actions**: the agent reads/writes notes through explicit tools instead of hallucinated edits.
+- **Built on SwiftAgentCore**: Mai's agent runtime is powered by [SwiftAgentCore](https://github.com/herrkaefer/SwiftAgentCore), maintained as a submodule in this repo.
+- **Tool-driven actions**: the agent reads/edits/writes notes through explicit tools instead of hallucinated edits.
 - **Safety by default**: mutating tools require in-app user confirmation.
-- **Skill system**: reusable skills are loaded from both app-level and vault-level directories.
-- **On-demand skill reading**: built-in `read_skill` tool allows the model to fetch full skill content when needed.
-- **Manual skill activation**: run prompts with `/skill:name` for deterministic workflow control.
-- **Optional web search**: when available, the agent can bring in fresh external references with source links.
+- **Web search**: web search tool is available if codex is configured. More built-in web search tools will be implemented later.
 
 ## What Mai Is Not
 
-- **Not a Markdown editor replacement**: keep using your preferred writing tool.
 - **Not a proprietary data container**: no private document format, no migration trap.
+- **Not a Markdown editor replacement**: keep using your preferred writing tool if you prefer.
 - **Not a forced workflow**: Finder and external tooling remain first-class.
 
 ## Road Ahead
