@@ -8,8 +8,8 @@ Mai is a native macOS knowledge workspace for local Markdown files, now with an 
 ## Download
 
 - Latest releases: https://github.com/herrkaefer/mai-releases/releases
-- Current recommended build: **v1.4.0**  
-  https://github.com/herrkaefer/mai-releases/releases/tag/v1.4.0
+- Current recommended build: **v1.4.1**  
+  https://github.com/herrkaefer/mai-releases/releases/tag/v1.4.1
 
 ## Why Mai
 
