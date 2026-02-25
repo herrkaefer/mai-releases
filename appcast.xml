@@ -4,11 +4,11 @@
         <title>Mai</title>
         <item>
             <title>1.4.4</title>
-            <pubDate>Wed, 25 Feb 2026 06:08:26 +0000</pubDate>
+            <pubDate>Wed, 25 Feb 2026 06:57:37 +0000</pubDate>
             <sparkle:version>45</sparkle:version>
             <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/herrkaefer/mai-releases/releases/download/v1.4.4/Mai-1.4.4-build45.dmg" length="6224060" type="application/octet-stream" sparkle:edSignature="5+3I52E5B2t8cuodtiUKjEAnQCfYbja6lEwfZOsZt1cROfyAMHiIfuvt+Dh5O5yFuJeJWqPo/h+6osIgUj2sAA=="/>
+            <enclosure url="https://github.com/herrkaefer/mai-releases/releases/download/v1.4.4/Mai-1.4.4-build45.dmg" length="9328313" type="application/octet-stream" sparkle:edSignature="WhYdfGvXgs7Wrxl+XOINeg8MNNYeQCCE/TEz1j//HW6fLkGUxxF9i+2lg1tOJGXuv9JALEZgWdjeYdzi/RLyAw=="/>
         </item>
     </channel>
 </rss>
