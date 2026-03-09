@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mai | Native Markdown Library for macOS</title>
+    <meta
+      name="description"
+      content="Mai is a native macOS app for browsing, organizing, and searching local Markdown libraries without locking your notes into a proprietary format."
+    />
+    <link rel="icon" type="image/png" href="assets/mai-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Mai home">
+          <img src="assets/mai-icon.png" alt="Mai app icon" />
+          <span>Mai</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#features">Features</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#download">Download</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">Native Markdown library for macOS</p>
+            <h1>Manage your Markdown collection without replacing your editor.</h1>
+            <p class="hero-text">
+              Mai keeps your notes in plain files, watches them in real time, and
+              turns large Markdown folders into a fast, structured library.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                id="primary-download"
+                class="button button-primary"
+                href="https://github.com/herrkaefer/mai-releases/releases/latest"
+              >
+                Download Latest
+              </a>
+              <a
+                class="button button-secondary"
+                href="https://github.com/herrkaefer/mai-releases/releases"
+              >
+                View Releases
+              </a>
+            </div>
+
+            <dl class="hero-meta">
+              <div>
+                <dt>Latest</dt>
+                <dd id="release-version">Loading...</dd>
+              </div>
+              <div>
+                <dt>Platform</dt>
+                <dd>macOS</dd>
+              </div>
+              <div>
+                <dt>Model</dt>
+                <dd>Local files first</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero-visual">
+            <div class="window-chrome">
+              <div class="window-dots" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="theme-switcher" role="tablist" aria-label="Preview theme">
+                <button
+                  class="theme-button is-active"
+                  type="button"
+                  data-theme-target="light"
+                  aria-selected="true"
+                >
+                  Light
+                </button>
+                <button
+                  class="theme-button"
+                  type="button"
+                  data-theme-target="dark"
+                  aria-selected="false"
+                >
+                  Dark
+                </button>
+              </div>
+            </div>
+            <div class="hero-shot">
+              <img
+                id="hero-screenshot"
+                src="screenshots/screenshot-light.png"
+                data-light-src="screenshots/screenshot-light.png"
+                data-dark-src="screenshots/screenshot-dark.png"
+                alt="Mai application screenshot"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="principles reveal">
+          <article class="principle-card">
+            <p class="card-kicker">Filesystem as truth</p>
+            <h2>Your notes stay as plain Markdown on disk.</h2>
+            <p>
+              No proprietary container. No migration trap. Mai works with the
+              folders you already own.
+            </p>
+          </article>
+          <article class="principle-card">
+            <p class="card-kicker">Editor agnostic</p>
+            <h2>Keep writing in Typora, VS Code, Obsidian, or anything else.</h2>
+            <p>
+              Mai handles browsing, metadata, and discovery while your preferred
+              editor stays in charge of writing.
+            </p>
+          </article>
+          <article class="principle-card">
+            <p class="card-kicker">Native speed</p>
+            <h2>Built for macOS, not wrapped in a browser shell.</h2>
+            <p>
+              Fast startup, responsive lists, and real desktop behavior across
+              large note libraries.
+            </p>
+          </article>
+        </section>
+
+        <section id="features" class="feature-section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">What Mai does well</p>
+            <h2>A library view for serious Markdown collections.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Real-time sync</h3>
+              <p>
+                Watches file changes from Finder and external editors so the app
+                stays aligned with the disk.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Metadata-driven organization</h3>
+              <p>
+                Supports YAML and comment front matter for categories, tags,
+                titles, summaries, and more.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Fast full-text search</h3>
+              <p>
+                Search across large Markdown libraries without forcing a new note
+                format or storage model.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Three-pane browsing</h3>
+              <p>
+                Move from folders to note lists to rendered content with a layout
+                that stays readable at scale.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Logical over physical structure</h3>
+              <p>
+                Categories and tags come from metadata, so your file paths do not
+                dictate how the library is organized.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Privacy-first foundation</h3>
+              <p>
+                Your Markdown lives locally, and the app is designed around data
+                ownership instead of lock-in.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="showcase reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Product view</p>
+            <h2>Readable in the day, focused at night.</h2>
+          </div>
+
+          <div class="showcase-grid">
+            <figure class="showcase-card">
+              <img src="screenshots/screenshot-light.png" alt="Mai in light mode" />
+              <figcaption>Light mode for scanning, sorting, and triaging.</figcaption>
+            </figure>
+            <figure class="showcase-card showcase-card-dark">
+              <img src="screenshots/screenshot-dark.png" alt="Mai in dark mode" />
+              <figcaption>Dark mode for long reading and review sessions.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section id="workflow" class="workflow reveal">
+          <div class="section-heading">
+            <p class="eyebrow">How it fits</p>
+            <h2>Built to sit between your files and your writing tools.</h2>
+          </div>
+
+          <div class="workflow-steps">
+            <article class="step-card">
+              <span class="step-index">01</span>
+              <h3>Write anywhere</h3>
+              <p>
+                Keep drafting in the Markdown editor that already matches your
+                taste and workflow.
+              </p>
+            </article>
+            <article class="step-card">
+              <span class="step-index">02</span>
+              <h3>Annotate lightly</h3>
+              <p>
+                Add front matter only when it helps. Mai still provides useful
+                fallbacks if metadata is missing.
+              </p>
+            </article>
+            <article class="step-card">
+              <span class="step-index">03</span>
+              <h3>Browse as a collection</h3>
+              <p>
+                Search, filter, and navigate thousands of local notes as one
+                coherent library.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="download" class="download reveal">
+          <div class="download-panel">
+            <div>
+              <p class="eyebrow">Download</p>
+              <h2>Install the latest Mai build from GitHub Releases.</h2>
+              <p class="download-text">
+                The page below reads the current Sparkle feed to show the newest
+                public build. If that lookup fails, the GitHub releases page is
+                still the fallback.
+              </p>
+            </div>
+
+            <div class="download-meta">
+              <div class="download-stat">
+                <span class="label">Version</span>
+                <strong id="download-version">Loading...</strong>
+              </div>
+              <div class="download-stat">
+                <span class="label">Minimum macOS</span>
+                <strong id="minimum-system">Loading...</strong>
+              </div>
+              <div class="download-stat">
+                <span class="label">Published</span>
+                <strong id="publish-date">Loading...</strong>
+              </div>
+            </div>
+
+            <div class="download-actions">
+              <a
+                id="download-link"
+                class="button button-primary"
+                href="https://github.com/herrkaefer/mai-releases/releases/latest"
+              >
+                Download Current Release
+              </a>
+              <a
+                class="button button-secondary"
+                href="appcast.xml"
+              >
+                Open Sparkle Feed
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Mai is a native macOS app for local Markdown libraries.</p>
+        <a href="https://github.com/herrkaefer/mai-releases">GitHub repository</a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
