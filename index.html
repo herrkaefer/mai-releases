@@ -23,6 +23,7 @@
         </a>
         <nav class="site-nav" aria-label="Primary">
           <a href="#features">Features</a>
+          <a href="#agent">Agent</a>
           <a href="#workflow">Workflow</a>
           <a href="#download">Download</a>
         </nav>
@@ -64,8 +65,8 @@
                 <dd>macOS</dd>
               </div>
               <div>
-                <dt>Model</dt>
-                <dd>Local files first</dd>
+                <dt>Focus</dt>
+                <dd>Local files plus AI tools</dd>
               </div>
             </dl>
           </div>
@@ -184,6 +185,77 @@
                 ownership instead of lock-in.
               </p>
             </article>
+          </div>
+        </section>
+
+        <section id="agent" class="agent-section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">AI agent</p>
+            <h2>Not just chat. A file-aware agent built into your Markdown library.</h2>
+          </div>
+
+          <div class="agent-layout">
+            <div class="agent-copy">
+              <p>
+                Mai ships with an integrated agent powered by SwiftAgentCore. It
+                can inspect your local notes, follow links, read front matter,
+                search the library, and perform editing actions with confirmation
+                for mutating operations.
+              </p>
+              <p>
+                The goal is not generic AI chatter. The goal is practical work on
+                your real Markdown collection.
+              </p>
+
+              <div class="agent-points">
+                <article class="agent-point">
+                  <h3>Library-aware retrieval</h3>
+                  <p>
+                    Search note bodies and front matter, list categories and tags,
+                    inspect backlinks, and follow outgoing links.
+                  </p>
+                </article>
+                <article class="agent-point">
+                  <h3>Structured note operations</h3>
+                  <p>
+                    Create, edit, append, move, and validate Markdown files with
+                    host-side confirmation for risky actions.
+                  </p>
+                </article>
+                <article class="agent-point">
+                  <h3>Flexible model backends</h3>
+                  <p>
+                    Works with OpenAI Codex, Claude, Gemini, MiniMax, Ollama, and
+                    OpenAI-compatible providers depending on your setup.
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <aside class="agent-panel" aria-label="Representative Mai agent tools">
+              <p class="card-kicker">Representative tools</p>
+              <div class="tool-cloud">
+                <span>search_md</span>
+                <span>read_md</span>
+                <span>read_frontmatter</span>
+                <span>list_tags</span>
+                <span>list_categories</span>
+                <span>get_backlinks</span>
+                <span>get_outgoing_links</span>
+                <span>create_md</span>
+                <span>edit_md</span>
+                <span>write_frontmatter</span>
+                <span>move_file</span>
+                <span>validate_md</span>
+                <span>web_fetch</span>
+                <span>web_search</span>
+              </div>
+              <p class="agent-note">
+                Mutating tools require confirmation. Read-only tools stay fast and
+                direct, so the agent can work as a practical librarian over your
+                notes instead of a detached chatbot.
+              </p>
+            </aside>
           </div>
         </section>
 
